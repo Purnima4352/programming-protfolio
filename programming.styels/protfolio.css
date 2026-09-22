@@ -10,6 +10,9 @@
 }
 
 /* shear style , text primary color {mary}(r) #FD6E0A*/
+.secondary-bg {
+  background-color: #f0c5a6;
+}
 .text-primary{
         color: #FD6E0A;
 }
@@ -22,8 +25,23 @@
   font-size: 20px;
   padding: 18px 35px;
   border-radius: 5px;
-  display: flex;
-  
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+/* section */
+.section-title {
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  color: #242222;
+}
+
+.text-center {
+  text-align: center;
 }
 /* header */
 .header {
@@ -84,4 +102,97 @@ nav ul li {
 .banner-title {
   font-weight: bold;
   font-size: 45px;
+}
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
+}
+/* about section styles */
+.about-items 
+{
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.about{
+  border-radius: 15px;
+  padding: 130px 150px;
+  text-align: center;
+  
+}
+/* skills styles */
+.skills-container{
+display: flex;
+gap: 25px;
+/* padding: 30px; */
+}
+.skills{
+  padding: 35px;
+  box-shadow: 0px 6px 50px 0px rgb(202, 193, 193);
+}
+/* resume section styles */
+.section-title 
+{
+  text-align: center;
+  padding: 35px;
+}
+.h3,.resume-column-title {
+  font-weight: bold;
+}
+.resume-container {
+  display: flex;
+  gap: 16px;
+}
+.experience-sub-title {
+  font-size: 15px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+.experience-description, .experience-sub-title {
+  color: #757575;
+}
+.Download{
+ align-items: center;
+ display: block;
+ margin-left: 40%;
+ margin-right: 40%;
+}
+.btn-primary {
+  display: flex;
+  
+  position: relative;
+    font-size: 20px;
+  padding: 18px 35px;
+  border-radius: 5px;
+  width: 100%;
+  width: auto;
+}
+/* footer styles */
+.section-title {
+  font-size: 20px;
+}
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+ 
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
 }
