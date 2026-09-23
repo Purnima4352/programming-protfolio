@@ -165,7 +165,7 @@ gap: 25px;
  margin-right: 40%;
 }
 .btn-primary {
-  display: flex;
+  /* display: flex; */
   
   position: relative;
     font-size: 20px;
@@ -188,11 +188,12 @@ footer {
  
 }
 footer input[type="text"], footer input[type="email"], footer textarea {
-  height: 10px;
+  height: 64px;
   border-radius: 5px;
   background-color: white;
   display: block;
   width: 100%;
   padding: 10px 20px;
   border: none;
+ 
 }
